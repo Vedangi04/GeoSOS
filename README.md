@@ -15,7 +15,7 @@ Plaintext
 .
 ├── client/                 # React Frontend Application
 │   ├── src/
-│   │   ├── components/     # UI Components (Header, SOS, Map, Hospitals)
+│   │   ├── components/     # Header, SOS, Map, Hospitals
 │   │   ├── App.js          # Main routing and logic
 │   │   └── Header.css      # Custom styling for navigation
 │   └── package.json        # Frontend dependencies
@@ -24,8 +24,6 @@ Plaintext
 │   ├── package.json        # AWS SDK v3 & Server dependencies
 │   └── .env                # Environment variables (AWS Credentials)
 └── README.md               # Project documentation
-🛠️ Tech Stack & Dependencies
-Backend (Node.js/AWS)
 
 Package	Purpose
 @aws-sdk/client-sns	Sending emergency notifications
